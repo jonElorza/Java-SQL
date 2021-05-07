@@ -5,37 +5,31 @@ import java.sql.SQLException;
 @SuppressWarnings("serial")
 public class AccesoDatosException extends RuntimeException {
 
-	public AccesoDatosException(String string, SQLException e) {
-		
-	}
-
-	public AccesoDatosException(String string, Exception e) {
-		
-	}
-
 	public AccesoDatosException() {
 		super();
-		
-	}
-
-	public AccesoDatosException(String arg0, Throwable arg1, boolean arg2, boolean arg3) {
-		super(arg0, arg1, arg2, arg3);
-		
-	}
-
-	public AccesoDatosException(String arg0, Throwable arg1) {
-		super(arg0, arg1);
-		
-	}
-
-	public AccesoDatosException(String arg0) {
-		super(arg0);
-		
-	}
-
-	public AccesoDatosException(Throwable arg0) {
-		super(arg0);
 		// TODO Auto-generated constructor stub
 	}
 
+	public AccesoDatosException(String message, Throwable cause, boolean enableSuppression,
+			boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+	public AccesoDatosException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public AccesoDatosException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public AccesoDatosException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	
 }

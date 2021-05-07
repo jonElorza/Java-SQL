@@ -90,6 +90,7 @@ public class Bandas {
 		this.escenario = escenario;
 		this.fecha = fecha;
 	}
+
 	@Override
 	public String toString() {
 		return "Bandas [id=" + id + ", nombre=" + nombre + ", pais=" + pais + ", escenario=" + escenario + ", fecha="
