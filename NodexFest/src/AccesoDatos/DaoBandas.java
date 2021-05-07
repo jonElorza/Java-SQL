@@ -10,13 +10,13 @@ import java.util.ArrayList;
 import Entidades.Bandas;
 
 public class DaoBandas {
-	private static final String URL = "jdbc:sqlite:dbSqLite";
+	private static final String URL = "jdbc:SqLite";
 	private static final String USUARIO = "";
 	private static final String PASSWORD = "";
 
 	private static final String SQL_SELECT = "SELECT id, nombre, pais, escenario, fecha FROM bandas";
 	private static final String SQL_SELECT_ID = SQL_SELECT + "WHERE id=?";
-	private static final String SQL_INSERT = "INSERT INTO bandas (nombre,pais, escenario, fecha) VALUES(?,?)";
+	//private static final String SQL_INSERT = "INSERT INTO bandas (nombre,pais,escenario,fecha) VALUES(?,?)";
 
 	private static Connection con = null;
 
