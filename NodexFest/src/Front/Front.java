@@ -8,7 +8,8 @@ import Entidades.Bandas;
 public class Front {
 
 	public static void main(String[] args) {
-		mostrarTodos();	
+		mostrarTodos();
+		System.out.print("holaaaaa");
 		//Bandas banda1 = DaoBandas.obtenerPorId(1);
 		//System.out.println(banda1);
 	}

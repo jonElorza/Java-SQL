@@ -96,7 +96,5 @@ public class Bandas {
 		return "Bandas [id=" + id + ", nombre=" + nombre + ", pais=" + pais + ", escenario=" + escenario + ", fecha="
 				+ fecha + "]";
 	}
-	
-	
-	
+
 }
